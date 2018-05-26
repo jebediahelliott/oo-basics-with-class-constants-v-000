@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    do BRANDS << brand if BRANDS.any? == false
   end
 
   def cobble
