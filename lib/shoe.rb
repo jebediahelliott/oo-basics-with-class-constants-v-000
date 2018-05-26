@@ -7,6 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     do BRANDS << brand if BRANDS.any? == false
+    end
   end
 
   def cobble
